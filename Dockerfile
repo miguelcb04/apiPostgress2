@@ -13,7 +13,7 @@ FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 ARG BUILD_CONFIGURATION=Release
 WORKDIR /src
 COPY ["ApiPostgress.csproj", "ApiPostgress/"]
-RUN dotnet restore "./ApiPostgress.csproj"
+RUN dotnet restore "ApiPostgress.csproj"
 COPY . .
 WORKDIR "/src/ApiPostgress"
 RUN dotnet build "./ApiPostgress.csproj" -c $BUILD_CONFIGURATION -o /app/build
