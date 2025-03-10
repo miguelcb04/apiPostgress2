@@ -1,0 +1,13 @@
+@ApiPostgress_HostAddress = http://localhost:5170
+
+###
+GET {{ApiPostgress_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
+GET {{ApiPostgress_HostAddress}}/api/Platoes
+Accept: application/json
+
+###
+GET {{ApiPostgress_HostAddress}}/api/Platoes/2
+Accept: application/json

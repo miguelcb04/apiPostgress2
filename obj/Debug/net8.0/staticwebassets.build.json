@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "oAX8pIfS2v94wZ04GBPdHFc19YNnQMcLRQj4/3RO6us=",
+  "Source": "ApiPostgress",
+  "BasePath": "_content/ApiPostgress",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
